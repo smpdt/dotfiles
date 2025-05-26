@@ -1,0 +1,16 @@
+[alias]
+	st = status
+	ch = checkout
+	br = branch
+	ac = !git add -A && git commit -m
+	rs = reset --soft
+	lg = log --oneline
+	rh = reset --hard
+	rhom = reset --hard origin/master
+	rom = reset --hard origin/main
+	pr = pull --rebase
+	po = "!git push origin $(git branch --show-current)"
+	rv = remote -v
+[user]
+	name = smpdt
+	email = srini@pdtpartners.com
